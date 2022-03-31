@@ -2,6 +2,5 @@
 
 ## FTG Modules for [GeekTG/Friendly-Telegram](https://github.com/GeekTG/Friendly-Telegram)
 
-# Repo with mods by another author and presets 
-
+# Repo with mods by another authors
 
