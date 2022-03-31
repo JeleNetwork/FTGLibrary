@@ -15,8 +15,7 @@ downloader
 ertb
 fake_actions
 file_uploader
-filter
-geek_get
+filte
 geek_spoilers
 gitupl
 image_editor
