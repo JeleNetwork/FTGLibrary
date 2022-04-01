@@ -258,7 +258,7 @@ class BotLoggerMod(loader.Module):
         logger.info("Bot logging installed")
 
     async def find_db(self) -> tuple:
-        ver_ = "geektg" if hasattr(main, "__version__") else "FTG"
+        ver_ = "GeekTG" if hasattr(main, "__version__") else "FTG"
 
         async for d in self.client.iter_dialogs():
             if d.title == f"{ver_.lower()}-logs":
@@ -268,8 +268,8 @@ class BotLoggerMod(loader.Module):
             (
                 await self.client(
                     CreateChannelRequest(
-                        f"gtg-logs",
-                        f"👩‍🎤 Your {ver_} logs will appear in this chat",
+                        f"{ver_.lower()}-logs",
+                        f"😎 Your {ver_} logs will appear in this chat",
                         megagroup=True,
                     )
                 )
